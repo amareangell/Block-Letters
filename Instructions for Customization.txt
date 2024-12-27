@@ -1,0 +1,31 @@
+Detailed Instructions for Customization
+
+Understand the Structure:
+
+Each line in std::cout corresponds to a row in your block letter design.
+Spaces ( ) represent empty parts of the block, while characters like A or S form the visible parts.
+Modify the Block Letters:
+
+If you'd like to display your initials or other words, replace the ASCII art in each line.
+For example, to create the letter "C":
+
+std::cout << "  CCC  \n";
+std::cout << " C     \n";
+std::cout << "C      \n";
+std::cout << "C      \n";
+std::cout << " C     \n";
+std::cout << "  CCC  \n";
+Add More Letters:
+
+Add std::cout statements to form additional block letters or words.
+Example for adding "U":
+
+std::cout << "U     U \n";
+std::cout << "U     U \n";
+std::cout << "U     U \n";
+std::cout << " U   U  \n";
+std::cout << "  UUU   \n";
+Compile and Run:
+
+Save the file and compile it using a C++ compiler (e.g., g++ or an IDE like Visual Studio).
+Run the compiled program to see the output in the console.
